@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF1A5AE1BC586DB00F6F4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5AD1BC586DB00F6F4E2 /* main.m */; };
+		0AF1A5B11BC586DB00F6F4E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5B01BC586DB00F6F4E2 /* AppDelegate.m */; };
+		0AF1A5B41BC586DB00F6F4E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5B31BC586DB00F6F4E2 /* ViewController.m */; };
+		0AF1A5B71BC586DB00F6F4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1A5B51BC586DB00F6F4E2 /* Main.storyboard */; };
+		0AF1A5B91BC586DB00F6F4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1A5B81BC586DB00F6F4E2 /* Assets.xcassets */; };
+		0AF1A5BC1BC586DB00F6F4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1A5BA1BC586DB00F6F4E2 /* LaunchScreen.storyboard */; };
+		0AF1A5C71BC586DB00F6F4E2 /* JYColorChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5C61BC586DB00F6F4E2 /* JYColorChangeTests.m */; };
+		0AF1A5D21BC586DB00F6F4E2 /* JYColorChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5D11BC586DB00F6F4E2 /* JYColorChangeUITests.m */; };
+		0AF1A5E11BC58AD800F6F4E2 /* JYColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1A5E01BC58AD800F6F4E2 /* JYColorChange.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF1A5C31BC586DB00F6F4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF1A5A11BC586DB00F6F4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF1A5A81BC586DB00F6F4E2;
+			remoteInfo = JYColorChange;
+		};
+		0AF1A5CE1BC586DB00F6F4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF1A5A11BC586DB00F6F4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF1A5A81BC586DB00F6F4E2;
+			remoteInfo = JYColorChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF1A5A91BC586DB00F6F4E2 /* JYColorChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYColorChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF1A5AD1BC586DB00F6F4E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AF1A5AF1BC586DB00F6F4E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AF1A5B01BC586DB00F6F4E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AF1A5B21BC586DB00F6F4E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AF1A5B31BC586DB00F6F4E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AF1A5B61BC586DB00F6F4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AF1A5B81BC586DB00F6F4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF1A5BB1BC586DB00F6F4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AF1A5BD1BC586DB00F6F4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF1A5C21BC586DB00F6F4E2 /* JYColorChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYColorChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF1A5C61BC586DB00F6F4E2 /* JYColorChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYColorChangeTests.m; sourceTree = "<group>"; };
+		0AF1A5C81BC586DB00F6F4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF1A5CD1BC586DB00F6F4E2 /* JYColorChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYColorChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF1A5D11BC586DB00F6F4E2 /* JYColorChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYColorChangeUITests.m; sourceTree = "<group>"; };
+		0AF1A5D31BC586DB00F6F4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF1A5DF1BC58AD800F6F4E2 /* JYColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYColorChange.h; sourceTree = "<group>"; };
+		0AF1A5E01BC58AD800F6F4E2 /* JYColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYColorChange.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF1A5A61BC586DB00F6F4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5BF1BC586DB00F6F4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5CA1BC586DB00F6F4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF1A5A01BC586DB00F6F4E2 = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5AB1BC586DB00F6F4E2 /* JYColorChange */,
+				0AF1A5C51BC586DB00F6F4E2 /* JYColorChangeTests */,
+				0AF1A5D01BC586DB00F6F4E2 /* JYColorChangeUITests */,
+				0AF1A5AA1BC586DB00F6F4E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF1A5AA1BC586DB00F6F4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5A91BC586DB00F6F4E2 /* JYColorChange.app */,
+				0AF1A5C21BC586DB00F6F4E2 /* JYColorChangeTests.xctest */,
+				0AF1A5CD1BC586DB00F6F4E2 /* JYColorChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF1A5AB1BC586DB00F6F4E2 /* JYColorChange */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5AF1BC586DB00F6F4E2 /* AppDelegate.h */,
+				0AF1A5B01BC586DB00F6F4E2 /* AppDelegate.m */,
+				0AF1A5B21BC586DB00F6F4E2 /* ViewController.h */,
+				0AF1A5B31BC586DB00F6F4E2 /* ViewController.m */,
+				0AF1A5DF1BC58AD800F6F4E2 /* JYColorChange.h */,
+				0AF1A5E01BC58AD800F6F4E2 /* JYColorChange.m */,
+				0AF1A5B51BC586DB00F6F4E2 /* Main.storyboard */,
+				0AF1A5B81BC586DB00F6F4E2 /* Assets.xcassets */,
+				0AF1A5BA1BC586DB00F6F4E2 /* LaunchScreen.storyboard */,
+				0AF1A5BD1BC586DB00F6F4E2 /* Info.plist */,
+				0AF1A5AC1BC586DB00F6F4E2 /* Supporting Files */,
+			);
+			path = JYColorChange;
+			sourceTree = "<group>";
+		};
+		0AF1A5AC1BC586DB00F6F4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5AD1BC586DB00F6F4E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF1A5C51BC586DB00F6F4E2 /* JYColorChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5C61BC586DB00F6F4E2 /* JYColorChangeTests.m */,
+				0AF1A5C81BC586DB00F6F4E2 /* Info.plist */,
+			);
+			path = JYColorChangeTests;
+			sourceTree = "<group>";
+		};
+		0AF1A5D01BC586DB00F6F4E2 /* JYColorChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1A5D11BC586DB00F6F4E2 /* JYColorChangeUITests.m */,
+				0AF1A5D31BC586DB00F6F4E2 /* Info.plist */,
+			);
+			path = JYColorChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF1A5A81BC586DB00F6F4E2 /* JYColorChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF1A5D61BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChange" */;
+			buildPhases = (
+				0AF1A5A51BC586DB00F6F4E2 /* Sources */,
+				0AF1A5A61BC586DB00F6F4E2 /* Frameworks */,
+				0AF1A5A71BC586DB00F6F4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYColorChange;
+			productName = JYColorChange;
+			productReference = 0AF1A5A91BC586DB00F6F4E2 /* JYColorChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AF1A5C11BC586DB00F6F4E2 /* JYColorChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF1A5D91BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChangeTests" */;
+			buildPhases = (
+				0AF1A5BE1BC586DB00F6F4E2 /* Sources */,
+				0AF1A5BF1BC586DB00F6F4E2 /* Frameworks */,
+				0AF1A5C01BC586DB00F6F4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF1A5C41BC586DB00F6F4E2 /* PBXTargetDependency */,
+			);
+			name = JYColorChangeTests;
+			productName = JYColorChangeTests;
+			productReference = 0AF1A5C21BC586DB00F6F4E2 /* JYColorChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AF1A5CC1BC586DB00F6F4E2 /* JYColorChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF1A5DC1BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChangeUITests" */;
+			buildPhases = (
+				0AF1A5C91BC586DB00F6F4E2 /* Sources */,
+				0AF1A5CA1BC586DB00F6F4E2 /* Frameworks */,
+				0AF1A5CB1BC586DB00F6F4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF1A5CF1BC586DB00F6F4E2 /* PBXTargetDependency */,
+			);
+			name = JYColorChangeUITests;
+			productName = JYColorChangeUITests;
+			productReference = 0AF1A5CD1BC586DB00F6F4E2 /* JYColorChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF1A5A11BC586DB00F6F4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = JY;
+				TargetAttributes = {
+					0AF1A5A81BC586DB00F6F4E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0AF1A5C11BC586DB00F6F4E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0AF1A5A81BC586DB00F6F4E2;
+					};
+					0AF1A5CC1BC586DB00F6F4E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0AF1A5A81BC586DB00F6F4E2;
+					};
+				};
+			};
+			buildConfigurationList = 0AF1A5A41BC586DB00F6F4E2 /* Build configuration list for PBXProject "JYColorChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AF1A5A01BC586DB00F6F4E2;
+			productRefGroup = 0AF1A5AA1BC586DB00F6F4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF1A5A81BC586DB00F6F4E2 /* JYColorChange */,
+				0AF1A5C11BC586DB00F6F4E2 /* JYColorChangeTests */,
+				0AF1A5CC1BC586DB00F6F4E2 /* JYColorChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF1A5A71BC586DB00F6F4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1A5BC1BC586DB00F6F4E2 /* LaunchScreen.storyboard in Resources */,
+				0AF1A5B91BC586DB00F6F4E2 /* Assets.xcassets in Resources */,
+				0AF1A5B71BC586DB00F6F4E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5C01BC586DB00F6F4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5CB1BC586DB00F6F4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF1A5A51BC586DB00F6F4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1A5B41BC586DB00F6F4E2 /* ViewController.m in Sources */,
+				0AF1A5B11BC586DB00F6F4E2 /* AppDelegate.m in Sources */,
+				0AF1A5E11BC58AD800F6F4E2 /* JYColorChange.m in Sources */,
+				0AF1A5AE1BC586DB00F6F4E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5BE1BC586DB00F6F4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1A5C71BC586DB00F6F4E2 /* JYColorChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF1A5C91BC586DB00F6F4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1A5D21BC586DB00F6F4E2 /* JYColorChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF1A5C41BC586DB00F6F4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF1A5A81BC586DB00F6F4E2 /* JYColorChange */;
+			targetProxy = 0AF1A5C31BC586DB00F6F4E2 /* PBXContainerItemProxy */;
+		};
+		0AF1A5CF1BC586DB00F6F4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF1A5A81BC586DB00F6F4E2 /* JYColorChange */;
+			targetProxy = 0AF1A5CE1BC586DB00F6F4E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AF1A5B51BC586DB00F6F4E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF1A5B61BC586DB00F6F4E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF1A5BA1BC586DB00F6F4E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF1A5BB1BC586DB00F6F4E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AF1A5D41BC586DB00F6F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AF1A5D51BC586DB00F6F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF1A5D71BC586DB00F6F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYColorChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF1A5D81BC586DB00F6F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYColorChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF1A5DA1BC586DB00F6F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYColorChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYColorChange.app/JYColorChange";
+			};
+			name = Debug;
+		};
+		0AF1A5DB1BC586DB00F6F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYColorChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYColorChange.app/JYColorChange";
+			};
+			name = Release;
+		};
+		0AF1A5DD1BC586DB00F6F4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYColorChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYColorChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0AF1A5DE1BC586DB00F6F4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYColorChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.m.a.c.JYColorChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYColorChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF1A5A41BC586DB00F6F4E2 /* Build configuration list for PBXProject "JYColorChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF1A5D41BC586DB00F6F4E2 /* Debug */,
+				0AF1A5D51BC586DB00F6F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF1A5D61BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF1A5D71BC586DB00F6F4E2 /* Debug */,
+				0AF1A5D81BC586DB00F6F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AF1A5D91BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF1A5DA1BC586DB00F6F4E2 /* Debug */,
+				0AF1A5DB1BC586DB00F6F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AF1A5DC1BC586DB00F6F4E2 /* Build configuration list for PBXNativeTarget "JYColorChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF1A5DD1BC586DB00F6F4E2 /* Debug */,
+				0AF1A5DE1BC586DB00F6F4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF1A5A11BC586DB00F6F4E2 /* Project object */;
+}
